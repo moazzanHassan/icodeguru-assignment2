@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Mono+One&display=swap');
+body{
+    background:url(img/gry.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container h1{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.card{
+    overflow: hidden;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.card img{
+    transition: .4s ease-in-out;
+}
+.card img:hover{
+    scale: 110%;
+}
+.bg-tst{
+    background: url(img/tec.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container p span{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
